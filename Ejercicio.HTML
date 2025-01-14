@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Videojuegos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="OIP.ico" rel="shortcut icon">
+</head>
+<body>
+    <header>
+        <img src="play5.jpg" alt="Imagen Izquierda" class="header-image-left">
+        <img src="xbox.jpg" alt="Imagen Derecha" class="header-image-right">
+        <h1>Tienda de Videojuegos</h1>
+    <div class="menu-container">
+        <button class="menu-button">Menú</button>
+        <div class="menu-dropdown">
+            <a href="#recientes" class="menu-item">Lanzamientos Recientes</a>
+            <a href="#vendidos" class="menu-item">Más Vendidos</a>
+            <a href="#proximos" class="menu-item">Próximos lanzamientos </a>
+            <a href="#comprar" class="menu-item">Comprar</a> 
+        </div>
+    </div>
+    </header>
+    <main>
+        <div class="video-window">
+            <a href="#proximos" class="video-link">
+                <h2 class="video-title">Proxima venta: ISLE EVRIMA</h2>
+            </a>
+            <div class="video-container">
+                <video width="560" height="315" controls>
+                    <source src="Video.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+        </div>
+        <section class="newsletter-form">
+            <h2>Suscríbete a la página y de regalo este jamón</h2>
+            <img src="jamon.jpg" alt="Imagen de Newsletter" class="newsletter-image">
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Introduce tu correo electrónico" required>
+                <button type="submit">Suscribirse</button>
+            </form>
+        </section>
+        </section>
+        <section id="recientes">
+            <h2>Lanzamientos Recientes</h2>
+            <div class="games-container">
+                <a href="#comprar" class="game-link">
+                <div class="game">
+                 <img src="Cyberpunk2077.jpg" alt="Cyberpunk 2077">
+                 <h3>Cyberpunk 2077</h3>
+                 <p>Explora el vasto mundo de Night City en el muy anticipado RPG de mundo abierto.</p>
+                </div>
+                </a>
+                <a href="#comprar" class="game-link">
+                <div class="game">
+                    <img src="rust.jpg" alt="rust">
+                    <h3>Rust</h3>
+                    <p>Mundo abierto donde puedes pelear o unirte con otros jugadores en linea.</p>
+                   </div>
+                </a>
+                <a href="#comprar" class="game-link">
+                    <div class="game">
+                     <img src="RED.jpg" alt="Red Dead Redemption">
+                     <h3>Red Dead Redemption</h3>
+                     <p>Explora el antiguo oeste ayudando o exterminando todo lo que se mueva a lomos de un caballo.</p>
+                    </div>
+                    </a>
+            </div>
+        </section>
+        
+        <section id="vendidos">
+            <h2>Más Vendidos</h2>
+            <div class="games-container">
+                <a href="#comprar" class="game-link">
+                <div class="game">
+                    <img src="Witcher3.jpg" alt="The Witcher 3: Wild Hunt">
+                    <h3>The Witcher 3: Wild Hunt</h3>
+                    <p>Embárcate en una épica aventura en uno de los juegos de rol más aclamados de la década.</p>
+                </div>
+                <div class="game">
+                    <img src="pesca.jpg" alt="Fishing Planet">
+                    <h3>Fishing Planet</h3>
+                    <p>Juego de pesca donde puedes recorrer todo el mundo atrapando todo tipo de presas.</p>
+                </div>
+                <div class="game">
+                    <img src="warcraft.jpg" alt="World of warcraft">
+                    <h3>World of warcraft</h3>
+                    <p>Explora Astaroth con tus mejores amigos para derrocar a Ilhidan de su liderazgo infernal</p>
+                </div>
+                </a>
+                
+            </div>
+        </section>
+        <section id="proximos">
+            <h2>Próximos Lanzamientos</h2>
+            <div class="games-container">
+                <a href="#comprar" class="game-link">
+            <!-- Aquí irían las tarjetas o listados de próximos lanzamientos -->
+                <div class="game">
+                    <img src="GTA6.jpg" alt="Grand Theft auto VI">
+                    <h3>Grand Theft auto VI</h3>
+                    <p>De la mano de Rockstar, patrulla las calles de Vice city y Los Angeles contra los narcotraficantes</p>
+                </div>
+             </div>
+            <div class="game">
+                <img src="ISLE.jpg" alt="ISLE EVRIMA">
+                <h3>ISLE EVRIMA</h3>
+                <p>Retorna a la época de nuestros ancestros y conviertete en un dinosaurio.</p>
+            </div>
+        </a>
+        </section>
+        <section id="comprar">
+            <h2>Comprar Juegos</h2>
+            <ul class="game-menu">
+                <li>
+                    <h3>The Witcher 3: Wild Hunt</h3>
+                    <p>Embárcate en una épica aventura en uno de los juegos de rol más aclamados de la década.</p>
+                    <span class="price">$29.99</span>
+                    <hr>
+                    <button class="buy-button">Comprar</button>
+                </li>
+                <li>
+                    <h3>Cyberpunk 2077</h3>
+                    <p>Explora el vasto mundo de Night City en el muy anticipado RPG de mundo abierto.</p>
+                    <span class="price">$49.99</span>
+                    <hr>
+                    <button class="buy-button">Comprar</button>
+                </li>
+                <li>
+                    <h3>Grand Theft auto VI</h3>
+                    <p>De la mano de Rockstar, patrulla las calles de Vice city y Los Angeles contra los narcotraficantes</p>
+                    <span class="price">$79.99</span>
+                    <hr>
+                    <button class="buy-button">Comprar</button>
+                </li>
+                <li>
+                    <h3>Fishing Planet</h3>
+                    <p>Juego de pesca donde puedes recorrer todo el mundo atrapando todo tipo de presas.</p>
+                    <span class="price">10.80$</span>
+                    <hr>
+                    <button class="buy-button">Comprar</button>
+                </li>
+                <li>
+                    <h3>Rust</h3>
+                    <p>Mundo abierto donde puedes pelear o unirte con otros jugadores en linea.</p>
+                    <span class="price">19.50$</span>
+                    <hr>
+                    <button class="buy-button">Comprar</button>
+                </li>
+                <li>
+                    <h3>ISLE EVRIMA</h3>
+                    <p>Retorna a la época de nuestros ancestros y conviertete en un dinosaurio.</p>
+                    <span class="price">17$</span>
+                    <hr>
+                    <button class="buy-button">Comprar</button>
+                </li>
+                <li>
+                    <h3>Red Dead Redemption</h3>
+                     <p>Explora el antiguo oeste ayudando o exterminando todo lo que se mueva a lomos de un caballo.</p>
+                    <span class="price">59,99$</span>
+                    <hr>
+                    <button class="buy-button">Comprar</button>
+                </li>
+                <li>
+                <h3>World of warcraft</h3>
+                    <p>Explora Astaroth con tus mejores amigos para derrocar a Ilhidan de su liderazgo infernal</p>
+                    <span class="price">59,99$</span>
+                    <hr>
+                    <button class="buy-button">Comprar</button>
+                </li>
+            </ul>
+           
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tienda de Videojuegos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
